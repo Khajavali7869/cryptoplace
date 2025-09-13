@@ -6,7 +6,7 @@ import Coin from './pages/Coin/Coin.jsx'
 import Footer from './components/Navbar/Footer/Footer.jsx'
 import Pricing from './pages/Pricing/Pricing.jsx'
 import Features from './pages/Features/Features.jsx'
-import SignUp from './pages/SignUp/Signup.jsx'
+import Signup from './pages/SignUp/Signup.jsx'
 
 const App = () => {
   return (
@@ -17,7 +17,7 @@ const App = () => {
         <Route path='/coin' element={<Pricing/>}/>
         <Route path='/coin/:id' element={<Coin/>}/>
          <Route path="/features" element={<Features />} />
-           <Route path="/signup" element={<SignUp />} />   
+           <Route path="/signup" element={<Signup />} />   
       </Routes>
     
       <Footer/>
